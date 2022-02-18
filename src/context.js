@@ -17,7 +17,7 @@ export const AppProvider = ({children}) => {
         setIsSubmenuOpen(true)
     }
     const closeSubmenu = () => {
-        setIssubmenuOpen(false)
+        setIsSubmenuOpen(false)
     }
 
     return <AppContext.Provider value={{ isSubmenuOpen, isSidebarOpen, openSubmenu, openSidebar, closeSubmenu, closeSidebar }} >
